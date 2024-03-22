@@ -1,0 +1,13 @@
+@import url(/assets/css/header.css);
+@import url(/assets/css/main.css);
+
+:root {
+    --white-color: #FFFFFF;
+    --gray-color: #74868d;
+    --black-color: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}

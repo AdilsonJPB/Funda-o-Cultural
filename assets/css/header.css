@@ -1,0 +1,24 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 15%;
+    height: 100px;
+    background-color: var(--gray-color);
+}
+
+.navegacao__listas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.lista__itens {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--black-color);
+}
