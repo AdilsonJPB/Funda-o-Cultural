@@ -1,5 +1,107 @@
 .conteudo-principal {
     display: flex;
     flex-direction: column;
-    padding: 1% 10%;
+    justify-content: center;
+    padding: 4% 15% 0% 15%;
+}
+
+.descricao__titulo {
+    font-family: var(--font-josefin);
+    color: rgba(51, 51, 51, 1);
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.descricao__paragrafo {
+    font-family: var(--font-montserrat);
+    color: var(--gray-black);
+    font-size: 14px;
+    margin-bottom: 80px;
+}
+
+.conteudo-principal__eventos {
+    display: flex;
+    width: 100%;
+    gap: 2git 0px;
+    align-items: center;
+    padding: 0% 0% 5% 0%;
+}
+
+.evento_imagem {
+    width: 427.27px;
+    height: 282.63px;
+}
+
+.evento_titulo {
+    font-family: var(--font-josefin);
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.evento_paragrafo, .evento_data {
+    font-family: var(--font-montserrat);
+    font-size: 14px;
+    color: var(--gray-black);
+    margin-bottom: 15px;
+}
+
+.cultura-vilhena {
+    display: flex;
+    max-width: 1500px;
+    margin-bottom: 170px;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.vilhena__texto {
+    font-family: var(--font-josefin);
+    color: rgba(51, 51, 51, 1);
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.cultura-vilhena__tamanho {
+    display: flex;
+    align-items: flex-end;
+    color: var(--white-color);
+    width: 380px;
+    height: 170px;
+}
+
+.cultura-vilhena__arquitetura {
+    background-image: url(/assets/imagem/culinaria.png);
+}
+
+.cultura-vilhena__artes_cenicas {
+    background-image: url(/assets/imagem/artesCenicas.png);
+}
+
+.cultura-vilhena__artesanato {
+    background-image: url(/assets/imagem/Group\ 39.png);
+}
+
+.cultura-vilhena__artes_visuais {
+    background-image: url(/assets/imagem/exposicoes.png);
+}
+
+.cultura-vilhena__cultura {
+    background-image: url(/assets/imagem/culturas.png);
+}
+
+.cultura-vilhena__livro {
+    background-image: url(/assets/imagem/literatura.png);
+} 
+
+.cultura-vilhena__musica {
+    background-image: url(/assets/imagem/musica.png);
+}
+
+.vilhena_titulo {
+    font-family: var(--font-josefin);
+    font-weight: 600;
+    font-size: 35px;
+    margin-left: 10px;
 }
